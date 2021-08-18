@@ -1,0 +1,93 @@
+.formulario {
+    color de fondo: var (- gris);
+    acolchado: 2rem;
+    radio del borde: 10px;
+}
+.formulario leyenda {
+    alineación de texto: centro;
+    tamaño de fuente: 1.2rem;
+    color: var (- primario);
+    margen inferior: 2rem;
+    bloqueo de pantalla;
+    transformación de texto: mayúsculas;
+    peso de fuente: 700;
+}
+@media (ancho mínimo: 768px) {
+    .formulario {
+        ancho máximo: 800px;
+        margen: 0 automático;
+    }
+}
+.contenedor-campos {
+    pantalla: flex;
+    justificar-contenido: espacio-entre;
+    envoltura flexible: envoltura;
+}
+
+.campo {
+    margen inferior: 1rem;
+    ancho: 100%;
+}
+@media (ancho mínimo: 480px) {
+    .campo {
+        pantalla: flex;
+        alinear-elementos: centro;
+    }
+}
+@media (ancho mínimo: 768px) {
+    .campo {
+        flex: 0 0 calc (50% - .5rem)
+    }
+}
+.campo label {
+    color: var (- blanco);
+    peso de fuente: 700;
+    margen inferior: .5rem;
+    bloqueo de pantalla;
+}
+@media (ancho mínimo: 480px) {
+    .campo label {
+        flex: 0 0 90px;
+    }
+}
+.campo input [type = "text"],
+.campo input [type = "tel"],
+.campo input [type = "mail"],
+.campo input [type = "radio"],
+.campo input [type = "option"],
+.campo textarea {
+    ancho: 100%;
+    acolchado: .5rem;
+    borde: ninguno;
+    radio del borde: .5rem;
+    
+}
+@media (ancho mínimo: 768px) {
+    : es (.campo): es ( 
+        input [type = "text"], 
+        input [type = "radio"],  
+        input [type = "tel"],  
+        input [type = "mail"], 
+        input [type = "option"], 
+        textarea) {
+        flexión: 1;
+    }
+}
+
+.w-100 {
+    flexión: 0 0100%;
+}
+.campo textarea {
+    altura: 4rem;
+}
+
+.enviar {
+    pantalla: flex;
+    justificar-contenido: flex-end;
+}
+
+.footer {
+    alineación de texto: centro;
+}
+
+
